@@ -15,10 +15,11 @@
   
   .activity-img {
     display: flex;
-  }
-  
-  .activity-img .item:not(:last-child) {
+    
+ .item:not(:last-child) {
     margin-right: 30px;
+  }
+    
   }
   
   
