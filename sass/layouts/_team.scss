@@ -15,7 +15,6 @@
     &:not(:last-child) {
       margin-right: 30px;
     }
-
   }
   
   .team-content {
@@ -60,8 +59,7 @@
     &:hover,
     &:focus {
     background-color: var(--accent-color);
-  }
-
+    }
   }
   
   .social-list-icon {
@@ -72,8 +70,7 @@
     .social-list-link:hover &,
     .social-list-link:focus & {
     fill: #ffffff;
-  }
-
+    }
   }
   
   

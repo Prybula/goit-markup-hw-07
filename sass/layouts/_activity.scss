@@ -1,5 +1,6 @@
 .section-activity {
     padding-top: 0;
+    
   }
   
   .activity-title,
@@ -16,12 +17,10 @@
   .activity-img {
     display: flex;
     
- .item:not(:last-child) {
-    margin-right: 30px;
+    .item:not(:last-child) {
+      margin-right: 30px;
+    }
   }
-    
-  }
-  
   
   .activity-item {
     position: relative;

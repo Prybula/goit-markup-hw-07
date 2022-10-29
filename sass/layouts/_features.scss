@@ -1,20 +1,21 @@
+
 .features-list {
     display: flex;
     column-gap: 30px;
   }
   
-  .features-item {
+  .features-list__item {
     flex-basis: calc((100% - 90px) / 4);
   }
   
-  .features-icon-list {
+  .features-list__icon {
     width: 70px;
     height: 70px;
     align-items: center;
     justify-content: center;
   }
   
-  .features-title {
+  .features__title {
     margin-bottom: 10px;
     margin-top: 30px;
     font-size: 14px;
@@ -24,7 +25,7 @@
     text-transform: uppercase;
   }
   
-  .features-text {
+  .features__text {
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
@@ -32,7 +33,7 @@
     color: var(--secondary-color);
   }
   
-  .icon-container {
+  .features-list__icon_container {
     display: flex;
     align-items: center;
     justify-content: center;

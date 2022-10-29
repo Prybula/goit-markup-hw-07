@@ -1,4 +1,4 @@
-.section-hero {
+.hero {
     padding-top: 200px;
     padding-bottom: 200px;
     margin: 0 auto;
@@ -10,7 +10,7 @@
     background-color: #c4c4c4;
   }
   
-  .hero-title {
+  .hero__title {
     margin: 0 auto;
     margin-bottom: 30px;
     width: 696px;
@@ -24,7 +24,7 @@
     color: var(--white-font-color);
   }
   
-  .btn-hero {
+  .hero__button {
     display: inline-block;
     padding: 10px 32px;
     min-width: 216px;
@@ -48,8 +48,7 @@
    &:hover,
    &:focus {
     background-color: #188ce8;
-  }
-
+    }
   }
   
   

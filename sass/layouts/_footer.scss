@@ -18,7 +18,6 @@
      .item:not(:last-child) {
       margin-bottom: 9px;
     }
-
   }
   
   .footer-location {
@@ -37,7 +36,6 @@
     &:focus {
       color: var(--accent-color);
     }
-
   }
   
   .footer-contact {
@@ -55,9 +53,8 @@
     &:hover,
     &:focus {
     color: var(--accent-color);
-  }
-
-  }
+  } 
+}
   
   
 
@@ -104,8 +101,7 @@
     &:focus {
     background-color: var(--accent-color);
   }
-
-  }
+}
   
   .subscribe-form-email {
     width: 358px;
@@ -132,8 +128,7 @@
     &:focus {
     outline: none;
     border-color: var(--accent-color);
-  }
-
+    }
   }
   
   .subscribe-form {
@@ -167,9 +162,8 @@
     &:hover,
     &:focus {
     background-color: #188ce8;
-  }
-  
-  }
+  }  
+ }
   
   .subscribe-form-join-icon {
     margin-left: 10px;

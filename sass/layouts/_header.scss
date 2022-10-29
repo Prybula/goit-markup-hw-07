@@ -7,20 +7,17 @@
     align-items: center;
   }
   
-  .menu-nav {
-    margin-left: 93px;
-  }
   
   .page-nav {
     display: flex;
+    margin-left: 93px;
 
-    .item:not(:last-child) {
+    .page-nav__item:not(:last-child) {
       margin-right: 50px;
     }
-
   }
-  
-  .menu-link {
+
+  .page-nav__link {
     display: block;
     padding-top: 32px;
     padding-bottom: 32px;
@@ -37,15 +34,14 @@
     &:hover,
     &:focus {
       color: var(--accent-color);
-  }
+    }
   
     &:active {
       color: var(--accent-color);
-  }
-
+    }
   }
   
-  .current {
+  .page-nav__link_current {
     color: var(--accent-color);
     position: relative;
 
@@ -62,7 +58,6 @@
     
       background-color: var(--accent-color);
     }
-
   }
   
   
