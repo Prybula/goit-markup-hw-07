@@ -1,73 +1,118 @@
 <!DOCTYPE html>
 <html lang="uk">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>WebStudio</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/main.min.css">
-  </head>
 
-  <body>
-    <!-- HEADER NAVIGATION START -->
-    <header class="header">
-      <div class="container header-container">
-        <a href="./index.html" class="logo link">Web<span class="header__logo">Studio</span></a>
-          <ul class="page-nav">
-            <li class="page-nav__item">
-              <a class="page-nav__link link page-nav__link_current" href="./index.html">Студія</a>
-            </li>
-            <li class="page-nav__item">
-              <a class="page-nav__link link" href="./portfolio.html">Портфоліо</a>
-            </li>
-            <li class="page-nav__item">
-              <a class="page-nav__link link" href="">Контакти</a>
-            </li>
-          </ul>
-          <ul class="contact-list">
-            <li class="contact-list__item">
-             <a class="contact-link link" href="mailto:info@devstudio.com">
-                <svg class="contact-link__icon" width="16" height="12">
-                  <use href="./images/sprite.svg#mail-icon"></use>
-               </svg>
-               info@devstudio.com</a
-             >
-            </li>
-            <li class="contact-list__item">
-             <a class="contact-link link" href="tel:+380961111111">
-               <svg class="contact-link__icon" width="10" height="16">
-                 <use href="./images/sprite.svg#phone-icon"></use>
-                </svg>
-              +38 096 111 11 11</a
-            >
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>WebStudio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+  <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+  <!-- HEADER NAVIGATION START -->
+  <header class="header">
+    <div class="container header-container">
+      <a href="./index.html" class="logo link">Web<span class="header__logo">Studio</span></a>
+      <ul class="page-nav">
+        <li class="page-nav__item">
+          <a class="page-nav__link link page-nav__link_current" href="./index.html">Студія</a>
+        </li>
+        <li class="page-nav__item">
+          <a class="page-nav__link link" href="./portfolio.html">Портфоліо</a>
+        </li>
+        <li class="page-nav__item">
+          <a class="page-nav__link link" href="">Контакти</a>
+        </li>
+      </ul>
+      <ul class="contact-list">
+        <li class="contact-list__item">
+          <a class="contact-link link" href="mailto:info@devstudio.com">
+            <svg class="contact-link__icon" width="16" height="12">
+              <use href="./images/sprite.svg#mail-icon"></use>
+            </svg>
+            info@devstudio.com</a>
+        </li>
+        <li class="contact-list__item">
+          <a class="contact-link link" href="tel:+380961111111">
+            <svg class="contact-link__icon" width="10" height="16">
+              <use href="./images/sprite.svg#phone-icon"></use>
+            </svg>
+            +38 096 111 11 11</a>
+        </li>
+      </ul>
+      <button type="button" class="mobile-menu-btn" data-menu-open>
+        <svg class="mobile-menu-btn__icon" width="40" height="40">
+          <use href="./images/sprite.svg#icon-burger">
+          </use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="mobile-menu" data-menu>
+      <div class="container mobile-menu__container">
+        <button class="mobile-menu__close-btn" data-menu-close>
+          <svg class="mobile-menu__close-icon" width="40" height="40">
+            <use href="./images/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        <ul class="mobile-menu-nav">
+          <li>
+            <a href="">Студія</a>
+          </li>
+          <li>
+            <a href="">Портфоліо</a>
+          </li>
+          <li>
+            <a href="">Контакти</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu-contacts">
+          <li>
+            <a href="">+38 096 111 11 11</a>
+          </li>
+          <li>
+            <a href="">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mobile-menu-social">
+          <li>
+            <a href="">Instagram</a>
+          </li>
+          <li>
+            <a href="">Facebook</a>
+          </li>
+          <li>
+            <a href="">Twitter</a>
+          </li>
+          <li>
+            <a href="">Linkedin</a>
           </li>
         </ul>
       </div>
-    </header>
-    <!-- HEADER NAVIGATION END -->
+    </div>
 
-    <!-- HERO SECTION START -->
-    <main>
+  </header>
+  <!-- HEADER NAVIGATION END -->
+
+  <!-- HERO SECTION START -->
+  <!-- <main>
       <section class="hero">
         <div class="container">
           <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
           <button class="hero__button" type="button" data-modal-open>Замовити послугу</button>
         </div>
-      </section>
-      <!-- HERO SECTION END -->
+      </section> -->
+  <!-- HERO SECTION END -->
 
-      <!-- FEATURES SECTION START-->
-      <section class="features section">
+  <!-- FEATURES SECTION START-->
+  <!-- <section class="features section">
         <div class="container">
           <h2 class="visually-hidden">Наші переваги</h2>
           <ul class="features-list">
@@ -117,41 +162,39 @@
             </li>
           </ul>
         </div>
-      </section>
-      <!-- FEATURES SECTION END-->
+      </section> -->
+  <!-- FEATURES SECTION END-->
 
-      <!-- ACTIVITY SECTION START -->
-      <section class="section-activity section">
+  <!-- ACTIVITY SECTION START -->
+  <!-- <section class="section-activity section">
         <div class="container">
           <h2 class="activity-title">Чим ми займаємося</h2>
           <ul class="activity-img">
             <li class="item activity-item">
-              <!-- <div class="activity-item-thumb"> -->
-              <img src="./images/developer-at-work.jpg" width="370" alt="Працюючий розробник" />
+              <img src="./images/activity/developer-at-work.jpg" width="370" alt="Працюючий розробник" />
               <p class="activity-item-text">Десктопні додатки</p>
-              <!-- </div> -->
             </li>
             <li class="item activity-item">
-              <img src="./images/designer-at-work.jpg" width="370" alt="Дизайнер за роботою" />
+              <img src=".//images/activity/designer-at-work.jpg" width="370" alt="Дизайнер за роботою" />
               <p class="activity-item-text">Мобільні додатки</p>
             </li>
             <li class="item activity-item">
-              <img src="./images/colors-palette.jpg" width="370" alt="Вибір на палетці кольорів" />
+              <img src="./images/activity/colors-palette.jpg" width="370" alt="Вибір на палетці кольорів" />
               <p class="activity-item-text">Дизайнерські рішення</p>
             </li>
           </ul>
         </div>
-      </section>
+      </section> -->
 
-      <!-- ACTIVITY SECTION END -->
+  <!-- ACTIVITY SECTION END -->
 
-      <!-- TEAM SECTION START -->
-      <section class="section team">
+  <!-- TEAM SECTION START -->
+  <!-- <section class="section team">
         <div class="container">
           <h2 class="team-title">Наша команда</h2>
           <ul class="team-list">
             <li class="team-item">
-              <img src="./images/product-designer.jpg" width="270" alt="Чоловік в окулярах" />
+              <img src="./images/team/product-designer.jpg" width="270" alt="Чоловік в окулярах" />
               <div class="team-content">
                 <h3 class="team-name">Ігор Дем'яненко</h3>
                 <p class="team-job" lang="en">Product Designer</p>
@@ -212,7 +255,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/frontend-developer.jpg" width="270" alt="Блондинка в окулярах" />
+              <img src="./images/team/frontend-developer.jpg" width="270" alt="Блондинка в окулярах" />
               <div class="team-content">
                 <h3 class="team-name">Ольга Рєпіна</h3>
                 <p class="team-job" lang="en">Frontend Developer</p>
@@ -273,7 +316,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/marketing.jpg" width="270" alt="Чоловік в сорочці посміхається" />
+              <img src="./images/team/marketing.jpg" width="270" alt="Чоловік в сорочці посміхається" />
               <div class="team-content">
                 <h3 class="team-name">Микола Тарасов</h3>
                 <p class="team-job" lang="en">Marketing</p>
@@ -334,7 +377,7 @@
               </div>
             </li>
             <li class="team-item">
-              <img src="./images/ui-designer.jpg" width="270" alt="Брюнет з бородою в окулярах" />
+              <img src="./images/team/ui-designer.jpg" width="270" alt="Брюнет з бородою в окулярах" />
               <div class="team-content">
                 <h3 class="team-name">Михайло Єрмаков</h3>
                 <p class="team-job" lang="en">UI Designer</p>
@@ -396,13 +439,13 @@
             </li>
           </ul>
         </div>
-      </section>
-    </main>
+      </section> -->
+  </main>
 
-    <!-- TEAM SECTION END -->
+  <!-- TEAM SECTION END -->
 
-    <!-- CLIENTS SECTION START -->
-    <section class="section clients">
+  <!-- CLIENTS SECTION START -->
+  <!-- <section class="section clients">
       <div class="container">
         <h2 class="clients-title">Постійні клієнти</h2>
         <ul class="clients-list">
@@ -450,12 +493,12 @@
           </li>
         </ul>
       </div>
-    </section>
+    </section> -->
 
-    <!-- CLIENTS SECTION END -->
+  <!-- CLIENTS SECTION END -->
 
-    <!-- FOOTER START -->
-    <footer class="footer">
+  <!-- FOOTER START -->
+  <!-- <footer class="footer">
       <div class="container footer-container">
         <div class="footer-adress">
           <a class="logo link link-footer" href="./index.html">
@@ -534,10 +577,10 @@
           </div>
         </div>
       </div>
-    </footer>
+    </footer> -->
 
-    <!-- BACKDROP -->
-    <div class="backdrop is-hidden" data-modal>
+  <!-- BACKDROP -->
+  <!-- <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-button" data-modal-close>
           <svg class="modal-close-icon" width="18" height="18">
@@ -600,7 +643,6 @@
             <svg class="modal-form-own-checkbox" width="16" height="15">
               <use class="modal-form-own-checkbox-icon" href="./images/sprite.svg#icon-check"></use>
             </svg>
-            <!-- </span> -->
             Погоджуюся з розсилкою та приймаю&nbsp;<a href="">Умови договору</a>
           </label>
 
@@ -609,6 +651,11 @@
       </div>
     </div>
 
-    <script src="./js/modal.js"></script>
-  </body>
+  -->
+
+   
+    <!-- <script src="./js/modal.js"></script> -->
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
 </html>

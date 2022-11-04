@@ -1,5 +1,5 @@
 .contact-list {
-    display: flex;
+    display: block;
     margin-left: auto;
 
       .contact-list__item:not(:last-child) {
@@ -8,7 +8,6 @@
   }
   
   .contact-link {
-    display: flex;
     font-size: 14px;
     font-weight: 500;
     line-height: 1.14;
@@ -29,9 +28,6 @@
     }
   }
   
-  
- 
-  
   .contact-link__icon {
     margin-right: 10px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -42,4 +38,11 @@
     }
   }
   
+
+  @media screen and (mid-width: 768px) {
+    .contact-link {
+      display: block;
+      row-gap: 10px;
+    }
+  }
   
